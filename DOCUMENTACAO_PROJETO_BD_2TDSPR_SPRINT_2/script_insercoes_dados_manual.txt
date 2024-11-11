@@ -1,0 +1,181 @@
+--SCRIPT PARA INSERÇÃO (OPCIONAL)
+
+--inserindo valores manuais na tabela(opcional)
+
+INSERT INTO tb_endereco (id_end, cep, logradouro, num_end, compl_end, bairro, cidade, uf)VALUES('1', '45696823', 'Rua Jepeto paz', '421', 'casa 2', 'Jd Umuarama', 'Rio de Janeiro', 'RJ');
+
+INSERT INTO tb_endereco (id_end, cep, logradouro, num_end, compl_end, bairro, cidade, uf)VALUES('2', '64771933', 'Rua Chile', '359', 'Apto 75C', 'Campo Grande', 'Rio de Janeiro', 'RJ');
+
+INSERT INTO tb_endereco (id_end, cep, logradouro, num_end, compl_end, bairro, cidade, uf) VALUES ('3', '19568190', 'Avenida Josimar dos Santos Vieira', '631', '', 'Monte Alegre', 'Sao Jose dos Pinhais', 'PR');
+    
+INSERT INTO tb_endereco (id_end, cep, logradouro, num_end, compl_end, bairro, cidade, uf) VALUES('4', '78588338', 'Avenida Joanita Barbosa', '756', 'Apto 133', 'Parque Pinheiros', 'Sao Joao del Rei', 'MG');
+
+INSERT INTO tb_endereco (id_end, cep, logradouro, num_end, compl_end, bairro, cidade, uf)
+    VALUES ('5', '47434864', 'Avenida Jose Andrade', '105', '', 'Intercap', 'Taboão da Serra', 'SP');
+
+ INSERT INTO tb_endereco (id_end, cep, logradouro, num_end, compl_end, bairro, cidade, uf)
+    VALUES ('6', '96731555', 'Rua Cais de Urucum', '212', 'Apto 67A', 'Jd Bonifacio', 'Feira de Santana', 'BA');
+
+INSERT INTO tb_endereco (id_end, cep, logradouro, num_end, compl_end, bairro, cidade, uf) VALUES('7', '36329995', 'Rua Josefa dos Santos Ventura', '359', '', 'Pirajussara', 'Maceio', 'AL');
+
+INSERT INTO tb_endereco (id_end, cep, logradouro, num_end, compl_end, bairro, cidade, uf) VALUES('8', '56433438', 'Rua Alonso Matarazzo', '275', 'Casa 3', 'Baronesa', 'Osasco', 'SP');
+
+INSERT INTO tb_endereco (id_end, cep, logradouro, num_end, compl_end, bairro, cidade, uf) VALUES('9', '27200778', 'Rua Escolastica Viana', '501', '', 'Helena Maria', 'Rio das Ostras', 'RJ');
+
+INSERT INTO tb_endereco (id_end, cep, logradouro, num_end, compl_end, bairro, cidade, uf)
+    VALUES('10', '92773410', 'Rua Vivaldi Mar', '695', 'Casa 1', 'Republica', 'São Paulo', 'SP');
+
+
+ INSERT INTO tb_plano (id_plano, nm_plano, tp_plano, valor_plano)
+    VALUES ('1', 'Plano Básico Individual', 'Individual', 100.00),
+    
+ INSERT INTO tb_plano (id_plano, nm_plano, tp_plano, valor_plano)
+    VALUES ('2', 'Plano Flex Med', 'Individual', 200.00),
+    
+ INSERT INTO tb_plano (id_plano, nm_plano, tp_plano, valor_plano)
+    VALUES ('3', 'Plano Premium Flex Plus', 'Individual', 500.00);
+    
+ INSERT INTO tb_plano (id_plano, nm_plano, tp_plano, valor_plano)
+    VALUES ('4', 'Plano Empresarial Premium Plus', 'Empresarial', 300.00),
+    
+ INSERT INTO tb_plano (id_plano, nm_plano, tp_plano, valor_plano)
+    VALUES ('5', 'Plano Familiar Plus', 'Individual', 250.00),
+    
+ INSERT INTO tb_plano (id_plano, nm_plano, tp_plano, valor_plano)
+    VALUES ('6', 'Plano Estudantil Plus', 'Individual', 150.00);
+    
+ INSERT INTO tb_plano (id_plano, nm_plano, tp_plano, valor_plano)
+    VALUES ('7', 'Plano Senior Top Flex', 'Individual', 450.00);
+    
+ INSERT INTO tb_plano (id_plano, nm_plano, tp_plano, valor_plano)
+    VALUES ('8', 'Plano Plus Empresarial Plus', 'Empresarial', 180.00);
+    
+ INSERT INTO tb_plano (id_plano, nm_plano, tp_plano, valor_plano)
+    VALUES ('9', 'Plano Jovem Flex', 'Individual', 220.00);
+    
+ INSERT INTO tb_plano (id_plano, nm_plano, tp_plano, valor_plano)
+    VALUES ('10', 'Plano Flex Top', 'Empresarial', 400.00);
+
+
+INSERT INTO tb_atendimento (id_atendimento, dt_atendimento, diagnostico, tb_cliente_id_clie, tb_rede_credenciada_id_empresa) VALUES ('1', '2023-08-12', 'Atendimento inicial para exame clínico e avaliação.', '1', '1');
+
+INSERT INTO tb_atendimento (id_atendimento, dt_atendimento, diagnostico, tb_cliente_id_clie, tb_rede_credenciada_id_empresa) VALUES ('2', '2023-09-14', 'Limpeza dentária simples.','2','2');
+
+INSERT INTO tb_atendimento (id_atendimento, dt_atendimento, diagnostico, tb_cliente_id_clie, tb_rede_credenciada_id_empresa) VALUES   ('3', '2023-07-10', 'Extração de dente do siso.', '3','3');
+
+INSERT INTO tb_atendimento (id_atendimento, dt_atendimento, diagnostico, tb_cliente_id_clie, tb_rede_credenciada_id_empresa) VALUES('4', '2023-06-09', 'Consulta para colocação de aparelho ortodôntico.', '4', '4');
+
+INSERT INTO tb_atendimento (id_atendimento, dt_atendimento, diagnostico, tb_cliente_id_clie, tb_rede_credenciada_id_empresa) VALUES ('5', '2023-06-11', 'Avaliação para colocação de coroa dentária.', '5', '5');
+    
+INSERT INTO tb_atendimento (id_atendimento, dt_atendimento, diagnostico, tb_cliente_id_clie, tb_rede_credenciada_id_empresa) VALUES ('6', '2023-09-21', 'Tratamento de canal e colocação de coroa.', '6', '6');
+
+INSERT INTO tb_atendimento (id_atendimento, dt_atendimento, diagnostico, tb_cliente_id_clie, tb_rede_credenciada_id_empresa) VALUES ('7', '2023-05-01', 'Consulta para restauração parcial do dente.', '7', '7');
+
+INSERT INTO tb_atendimento (id_atendimento, dt_atendimento, diagnostico, tb_cliente_id_clie, tb_rede_credenciada_id_empresa) VALUES ('8', '2023-08-30', 'Aplicação de anestesia local e restauração total.', '8', '8');
+
+INSERT INTO tb_atendimento (id_atendimento, dt_atendimento, diagnostico, tb_cliente_id_clie, tb_rede_credenciada_id_empresa) VALUES ('10','2023-07-18', 'Tratamento de canal e colocação de aparelho.', '10', '10');
+
+INSERT INTO tb_atendimento (id_atendimento, dt_atendimento, diagnostico, tb_cliente_id_clie, tb_rede_credenciada_id_empresa) VALUES ('9', '2023-08-12', 'Exame de raios-X da mandíbula.', '9', '9');
+
+
+
+INSERT INTO tb_cliente (id_clie, cpf, dt_cadastro, nm_clie, dt_nasc, genero, telefone, email, tb_endereco_id_end, tb_plano_id_plano)
+VALUES ('1', '90072809663', TO_DATE('2022-08-31', 'YYYY-MM-DD'), 'Fernando Vilares Silva', TO_DATE('1984-12-06', 'YYYY-MM-DD'), 'M', '4512345678', 'fernandov@email.com', '2', '1');
+
+INSERT INTO tb_cliente (id_clie, cpf, dt_cadastro, nm_clie, dt_nasc, genero, telefone, email, tb_endereco_id_end, tb_plano_id_plano)
+VALUES ('2', '63592985536', TO_DATE('2022-07-15', 'YYYY-MM-DD'), 'Caroline Andrade Correia', TO_DATE('1996-03-24', 'YYYY-MM-DD'), 'F', '6491234567', 'carol_gatinha@email.com', '1', '2');
+INSERT INTO tb_cliente (id_clie, cpf, dt_cadastro, nm_clie, dt_nasc, genero, telefone, email, tb_endereco_id_end, tb_plano_id_plano)
+    VALUES('3', '76121573984', TO_DATE('2022-10-11','YYYY-MM-DD'), 'Kamilla Raquelly Santos da Silva', TO_DATE('2009-10-21','YYYY-MM-DD'), 'F', '6598765432', 'kami.santos@email.com', '3', '3');
+    
+INSERT INTO tb_cliente (id_clie, cpf, dt_cadastro, nm_clie, dt_nasc, genero, telefone, email, tb_endereco_id_end, tb_plano_id_plano)
+    VALUES('4', '98436512398', TO_DATE('2023-01-30','YYYY-MM-DD'), 'Ronaldo Souza Goncalves', TO_DATE('1988-02-10','YYYY-MM-DD'), 'M', '7198456321', 'ronaldinho10@gmail.com', '4', '4');
+   
+INSERT INTO tb_cliente (id_clie, cpf, dt_cadastro, nm_clie, dt_nasc, genero, telefone, email, tb_endereco_id_end, tb_plano_id_plano)
+    VALUES('5', '61495382745', TO_DATE('2023-05-12','YYYY-MM-DD'), 'Jeronimo Nunes Pereira', TO_DATE('1974-06-19','YYYY-MM-DD'), 'M', '8193756428', 'pereirao@gmail.com', '5', '5');
+    
+INSERT INTO tb_cliente (id_clie, cpf, dt_cadastro, nm_clie, dt_nasc, genero, telefone, email, tb_endereco_id_end, tb_plano_id_plano)
+    VALUES('6', '75829384756', TO_DATE('2023-06-18','YYYY-MM-DD'), 'Aline Mendes Simoes', TO_DATE('1998-05-22','YYYY-MM-DD'), 'F', '9192837465', 'alinemendessim@hotmail.com', '6', '6');
+    
+INSERT INTO tb_cliente (id_clie, cpf, dt_cadastro, nm_clie, dt_nasc, genero, telefone, email, tb_endereco_id_end, tb_plano_id_plano)
+VALUES ('7', '90837465234', TO_DATE('2023-02-19', 'YYYY-MM-DD'), 'Kleber Monteiro Souza', TO_DATE('1986-11-13', 'YYYY-MM-DD'), 'M', '6293847562', 'klebinho_souza@homail.com', '7', '7');
+    
+INSERT INTO tb_cliente (id_clie, cpf, dt_cadastro, nm_clie, dt_nasc, genero, telefone, email, tb_endereco_id_end, tb_plano_id_plano)
+    VALUES('8', '61498372635', TO_DATE('2023-07-01','YYYY-MM-DD'), 'Loren Prtsmirski Kurt', TO_DATE('1979-09-07','YYYY-MM-DD'),  'F', '8392847563', 'loren.kurt@live.com', '8', '8');
+    
+INSERT INTO tb_cliente (id_clie, cpf, dt_cadastro, nm_clie, dt_nasc, genero, telefone, email, tb_endereco_id_end, tb_plano_id_plano)
+    VALUES('9', '72849361728', TO_DATE('2022-12-11','YYYY-MM-DD'), 'João Vitor Veronezi Matarazzo dos Santos', TO_DATE('1992-04-18','YYYY-MM-DD'), 'M', '7293847562', 'jotavitor@yahoo.com', '9', '9');
+    
+INSERT INTO tb_cliente (id_clie, cpf, dt_cadastro, nm_clie, dt_nasc, genero, telefone, email, tb_endereco_id_end, tb_plano_id_plano)
+    VALUES('10', '83549271635', TO_DATE('2023-03-23', 'YYYY-MM-DD'), 'Ronilda Pedroso Gomes', TO_DATE('1980-01-29','YYYY-MM-DD'), 'F', '5392847563', 'nilda_pedrosa80@gmail.com', '10', '10');
+
+
+INSERT INTO tb_rede_credenciada (id_empresa, cnpj, dt_cadastro, nm_empresa, especialidade, telefone, email, tb_endereco_id_end)
+VALUES 
+('1', '84473940000149', TO_DATE('2023-10-27', 'YYYY-MM-DD'), 'Consultorio Menezes Rosario ME', 'Ortodontia Cirurgica', '5928762849', 'consultoriomenezes@gmail.com', '5'),
+('2', '39428374002293', TO_DATE('2023-05-22', 'YYYY-MM-DD'), 'Consultorio Agatha Moreira ME', 'Periodontia', '6128347562', 'draagathamoreira@hotmail.com', '1'),
+('3', '65829370001234', TO_DATE('2023-01-15', 'YYYY-MM-DD'), 'Clinica Sorrisal Ltda', 'Clinica Geral', '8392847563', 'sorrisal@email.com', '2'),
+('4', '94837563000240', TO_DATE('2023-02-18', 'YYYY-MM-DD'), 'Clinica Dentalmais Ltda', 'Clinica Geral', '9293847562', 'adm@dentalmais.com', '3'),
+('5', '72639475000190', TO_DATE('2023-04-20', 'YYYY-MM-DD'), 'Consultório Rosimar e Conrado ME', 'Periodontia', '7392847563', 'adm.rosiconrado@gmail.com', '4'),
+('6', '45708555000172', TO_DATE('2023-04-20', 'YYYY-MM-DD'), 'Consultório Marques Nunes Ltda', 'Odontopediatria', '11987652235', 'adm.marquesnunes@gmail.com', '6'),
+('7', '72639475000188', TO_DATE('2023-04-20', 'YYYY-MM-DD'), 'Dentistas no flow ME', 'Ortodontia', '7392847003', 'adm.dentistasflow@gmail.com', '7'),
+('8', '72090122000192', TO_DATE('2023-04-20', 'YYYY-MM-DD'), 'Consultório Dr. Ney Santos ME', 'Endodontia', '1147873355', 'dr.neysantos@gmail.com', '8'),
+('9', '72639475000194', TO_DATE('2023-04-20', 'YYYY-MM-DD'), 'Almirante Exames Radiológicos Ltda', 'Radiologia', '2192847763', 'adm@almirante.com', '9'),
+('10', '72639471000199', TO_DATE('2023-04-20', 'YYYY-MM-DD'), 'Consultório Fernanda Muniz ME', 'Odontopediatria', '21999342211', 'drafernanda.muniz@gmail.com', '10');
+
+
+INSERT INTO tb_procedimento (id_proc, nm_proc, tp_proc, custo_medio, complexidade)
+VALUES 
+('1', 'Limpeza Simples', 'Simples', 100, 'Baixa'),
+('2', 'Limpeza Profunda', 'Padrão', 150, 'Baixa'),
+('3', 'Extração Dente Posição V23', 'Cirúrgico', 500, 'Média'),
+('4', 'Colocação de Aparelho Ortodôntico', 'Padrão', 1500, 'Alta'),
+('5', 'Colocação de Coroa Posição V30', 'Cirúrgico', 300, 'Média'),
+('6', 'Anestesia Local', 'Especial', 600, 'Alta'),
+('7', 'Restauração Parcial', 'Padrão', 1200, 'Média'),
+('8', 'Restauração Total', 'Padrão', 2800, 'Alta'),
+('9', 'Tratamento Canal Raiz Posição V24', 'Cirúrgico', 1700, 'Alta'),
+('10', 'Exame Raios X', 'Exame', 400, 'Baixa');
+
+
+INSERT INTO tb_atendimento (id_atendimento, dt_atendimento, diagnostico, tb_cliente_id_clie, tb_rede_credenciada_id_empresa)
+VALUES 
+('1', TO_DATE('2023-08-12', 'YYYY-MM-DD'), 'Atendimento inicial para exame clínico e avaliação.', '1', '1'),
+('2', TO_DATE('2023-09-14', 'YYYY-MM-DD'), 'Limpeza dentária simples.', '2', '2'),
+('3', TO_DATE('2023-07-10', 'YYYY-MM-DD'), 'Extração de dente do siso.', '3', '3'),
+('4', TO_DATE('2023-06-09', 'YYYY-MM-DD'), 'Consulta para colocação de aparelho ortodôntico.', '4', '4'),
+('5', TO_DATE('2023-06-11', 'YYYY-MM-DD'), 'Avaliação para colocação de coroa dentária.', '5', '5'),
+('6', TO_DATE('2023-09-21', 'YYYY-MM-DD'), 'Tratamento de canal e colocação de coroa.', '6', '6'),
+('7', TO_DATE('2023-05-01', 'YYYY-MM-DD'), 'Consulta para restauração parcial do dente.', '7', '7'),
+('8', TO_DATE('2023-08-30', 'YYYY-MM-DD'), 'Aplicação de anestesia local e restauração total.', '8', '8'),
+('9', TO_DATE('2023-08-12', 'YYYY-MM-DD'), 'Exame de raios-X da mandíbula.', '9', '9'),
+('10', TO_DATE('2023-07-18', 'YYYY-MM-DD'), 'Tratamento de canal e colocação de aparelho.', '10', '10');
+
+
+
+INSERT INTO tb_tratamento (id_tratamento, desc_tratamento, nivel_urgencia, tb_atendimento_id_atendimento)
+VALUES 
+('1', 'Realizar acompanhamento anual, dentes saudáveis porém com gengivas comprometidas', 'longo prazo', '1'),
+('2', 'Realizar acompanhamento de 6 em 6 meses com limpeza profunda para evitar novas cáries', 'médio prazo', '2'),
+('3', 'Extração dos dentes caninos, cárie insistente', 'imediato', '3'),
+('4', 'Feito a limpeza e a manutenção do aparelho ortodôntico, próxima manutenção no próximo mês', 'médio prazo', '4'),
+('5', 'Limpeza normal, acompanhamento anual, dentes em bom estado', 'longo prazo', '5'),
+('6', 'Extração dos molares inferiores. Acompanhar cicatrização, retirar pontos em 20 dias e realizar exames para estudar a implantação da prótese', 'imediato', '6'),
+('7', 'Preparação da dentina para recebimento das facetas dos dentes incisivos', 'médio prazo', '7'),
+('8', 'Obturação dos molares e dos pré-molares, marcar exames para averiguar se será necessário canal devido à profundidade do dano', 'imediato', '8'),
+('9', 'Limpeza profunda', 'longo prazo', '8'),
+('10', 'Realizar acompanhamento anual, dentes saudáveis e bem cuidados', 'longo prazo', '9'),
+('11', 'Tratamento para a gengivite, aplicação de flúor, limpeza profunda e acompanhamento indicado de 6 em 6 meses até cicatrização completa', 'médio prazo', '10');
+
+INSERT INTO tb_assoc_atend_proc (tb_atendimento_id_atendimento, tb_procedimento_id_proc)
+VALUES 
+('1', '1'),
+('2', '2'),
+('3', '3'),
+('4', '4'),
+('5', '5'),
+('6', '6'),
+('7', '7'),
+('8', '8'),
+('9', '9'),
+('10', '10');
+
